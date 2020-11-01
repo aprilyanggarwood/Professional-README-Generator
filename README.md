@@ -1,6 +1,6 @@
 # Professional README Generator: Node.js
 
-## Decription
+## Description
 
 A professianl README is important for users to understand your application that how your application will work for them, how they install your application,how to report issues as well as how other developers can contribute to this application at the first touch.
 
