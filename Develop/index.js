@@ -11,14 +11,13 @@ const questions = [
     message: "What is your project's title?",
     type: "input",
     name: "title",
-    default: "Awesome_project",
+    default: "name_project",
   },
   {
     message: "Enter a short description of your project.",
     type: "input",
     name: "description",
-    default:
-      "This project creats an app which generates a README file for a new repository.",
+    default: "This project creats an application.",
   },
 
   {
