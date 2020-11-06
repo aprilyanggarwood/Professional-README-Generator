@@ -25,7 +25,7 @@ const questions = [
     message: "What are required to install this project?",
     type: "input",
     name: "installation",
-    default: "Brif of installation ",
+    default: "Brief of installation ",
   },
   {
     message: "Why and how will this project be used?",

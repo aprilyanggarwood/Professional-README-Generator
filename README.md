@@ -1,6 +1,6 @@
 # Professional README Generator: Node.js
 
-## Decription
+## Description
 
 A professianl README is important for users to understand your application that how your application will work for them, how they install your application,how to report issues as well as how other developers can contribute to this application at the first touch.
 
@@ -21,11 +21,13 @@ In the terminal, user will run `npm install` for installing two package dependen
 
 ## Usage
 
-- user will be given the prompted questions about project info and GitHub info by runing `npm index.js`.
+- User will be given the prompted questions about project info and GitHub info by runing `npm index.js`.
 
-- the application will generate a README with markdown and a table of contents based on your responses to the Inquirer prompts and fetched the GitHub info from GitHub api.
+- User can answer or skip questinos when he/she goes though the inquirer prompts, then this application will generate a README file basd on user's responses to the prompts. For example, if user skips some questions, such as contribution and test questions, these two sections will not be included in the README file. Also this application will fetch the GitHub info from GitHub api when user put her/his github username.
 
-- A bage link will come with the selected license
+- The markdown format and a table of contents will come with the generated README file.The each list of contents will link to the each matched section.
+
+- A bage link will come with the selected license.
 
 ## ES6-syntax-and-code
 

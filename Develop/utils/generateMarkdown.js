@@ -22,36 +22,55 @@ function generateMarkdown(response) {
   
 # Table of Contents
 
-- [Description](#desicription)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Test](#test)
-- [License](#license)
+${response.description && `- [Description](#desicription)`}
+
+${response.installation && `- [Installation](#installation)`}
+
+${response.usage && `- [Usage](#usage)`}
+
+${response.contribution && `- [Contributing](#contributing)`}
+
+${response.tests && `- [Test](#test)`}
+
+${badges[response.licenses] && `- [License](#license)`}
+
 - [Questions](#questions)
 
+${
+  response.description &&
+  `## Description:
+  ${response.description}`
+} 
 
+${
+  response.installation &&
+  `## Installation:
+  ${response.installation}`
+}
 
-## Description:
+${
+  response.usage &&
+  `## Usage: 
+  ${response.usage}`
+}
 
+${
+  response.contribution &&
+  `## Contributing:
+  ${response.contribution}`
+}
 
-${response.description}
+${
+  response.tests &&
+  `## Test:
+  ${response.tests}`
+} 
 
-## Installation:
-${response.installation}
-
-## Usage:
-
-${response.usage}
-
-## Contributing:
-${response.contribution}
-
-## Test:
-${response.tests}
-
-## License:
-- ${badges[response.licenses]}
+${
+  badges[response.licenses] &&
+  `## License:
+  ${badges[response.licenses]}`
+}
 
 ## Questions:
    If you have any questions about this project, please feel free to contact me through following:
