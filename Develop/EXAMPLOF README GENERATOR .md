@@ -1,4 +1,4 @@
-# Exampl OF README GENERATOR 
+# Example OF README GENERATOR 
   
 # Table of Contents
 
